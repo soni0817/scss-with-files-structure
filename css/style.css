@@ -836,6 +836,9 @@ a {
   position: absolute;
   left: 0;
 }
+.hw-school-slider .owl-nav .fa-arrow-right, .hw-school-slider .fa-arrow-left {
+  color: #841E25;
+}
 .hw-school-slider::after {
   content: url("../images/slider-dots.png");
   background-repeat: no-repeat;

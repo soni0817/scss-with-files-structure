@@ -443,6 +443,9 @@
     position: absolute;
     left: 0;
 }
+.owl-nav .fa-arrow-right,.fa-arrow-left{
+  color: $red-1;
+}
   &::after {
     content: url("../images/slider-dots.png");
     background-repeat: no-repeat;
