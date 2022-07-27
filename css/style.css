@@ -604,7 +604,7 @@ a {
 .mission_vision {
   height: 100%;
   background-color: #841e25;
-  background: url(/images/brow.png);
+  background: url(../../images/brow.png);
   width: 100%;
   background-size: cover;
 }
