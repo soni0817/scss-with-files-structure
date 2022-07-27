@@ -20,8 +20,9 @@ $(document).ready(function(){
     loop:true,
     margin:10,
     nav:true,
-    navText: ["<img src='../images/Icon metro-arrow-left.png'>",
-    "<img src='../images/Icon metro-arrow-right.png'>"],
+    // navText: ["<img src='../images/Icon metro-arrow-left.png'>",
+    // "<img src='../images/Icon metro-arrow-right.png'>"],
+    navText: ["<i class='fa fa-arrow-right'></i>","<i class='fa fa-arrow-left'></i>"],
     dots: false,
     responsive:{
         0:{
