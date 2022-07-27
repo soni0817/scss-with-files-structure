@@ -1,0 +1,37 @@
+h1{
+    font-size: 3rem;
+    line-height: 4.1rem;
+    font-weight: 400;
+    font-family: "circular-std-bold", sans-serif;
+    color: $white-1;
+    @include responsive_mobile(){
+        font-size: 3rem;
+        line-height: 4.1rem;
+    }
+    @include responsive(768px,1199px){
+        // font-size: 3rem;
+        // line-height: 3rem;
+      }
+
+    
+    @include custom-small-mobile-max(){
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+}
+h3{
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    font-family: "circular-std-bold", sans-serif;
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    color:$grey-4;
+    font-family: "circular-std-book", sans-serif;
+    @include custom-small-mobile-max(){
+        font-size: 0.7rem;
+    }
+}
