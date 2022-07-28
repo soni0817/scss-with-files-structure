@@ -672,8 +672,8 @@ intro-section, .intro-section .container .row {
   display: inline-block;
   position: absolute;
   z-index: 2;
-  left: 50%;
-  top: 9%;
+  left: 65%;
+  top: 7%;
 }
 @media only screen and (max-width: 576px) {
   .about .about_right .about-details h3::after {
