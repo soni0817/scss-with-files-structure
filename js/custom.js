@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.homepage-slider').owlCarousel({
+  $('#home-section').owlCarousel({
       loop:true,
       margin:10,
       nav:false,

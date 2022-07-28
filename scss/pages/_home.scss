@@ -1,3 +1,82 @@
+/*-------slider-section-------*/
+    
+    intro-section, .intro-section .container .row {
+        height: 100vh;
+        min-height:840px;
+    }
+    .intro-section {
+        position: relative;
+    }
+    
+    .intro-section:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top:0;
+        left:0;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/images/background_banner.jpg); 
+        background-size: cover; 
+        background-repeat: no-repeat;
+        // border-bottom-right-radius: 200px;
+    }
+    
+    
+    
+    .slider-row{
+        display: flex;
+        .owl-theme .owl-nav.disabled+.owl-dots{
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+      }
+      .col{
+        display: flex;
+        padding-top: 8rem;
+        justify-content: end;
+        @include portrait-mobile-max(){
+          flex-direction: column;
+          padding-left: 2rem;
+        }
+        @include responsive_mobile(){
+          flex-direction: column;
+          padding-left: 2rem;
+        }
+    }
+    }
+    
+  .col-left{
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+      @include responsive_mobile(){
+        max-width: 100%;
+      }
+      @include portrait-mobile-max(){
+        max-width: 100%;
+      }
+      p{
+        max-width: 80%;
+        padding: 1.7rem 0;
+      }
+      .btn{
+        background-color: #841E25;
+        color: #C8C8C8;
+        padding: 0.7rem 2.3rem 0.7rem 2.8rem;
+      }
+      
+  }
+  .col-right{
+      flex: 0 0 50%;
+      max-width: 50%;
+      @include portrait-mobile-max(){
+        max-width: 100%;
+      }
+      @include responsive_mobile(){
+        max-width: 100%;
+      }
+  }
+
 .homepage-slider {
   .home-slider {
     // height: 100vh;
