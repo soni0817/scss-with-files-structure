@@ -16,7 +16,7 @@
         top:0;
         left:0;
         background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(/images/background_banner.jpg); 
+        url(../images/background_banner.jpg); 
         background-size: cover; 
         background-repeat: no-repeat;
         // border-bottom-right-radius: 200px;
@@ -284,7 +284,7 @@
         //   font-size: 1.6rem;
         // }
         &::after {
-          content: url("/images/about-dot.png");
+          content: url("../images/about-dot.png");
           display: inline-block;
           position: absolute;
           z-index: 2;
