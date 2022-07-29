@@ -48,6 +48,11 @@ header {
       }
     }
     //   haeder navbar
+    nav{
+      li{
+        display: inline-block;
+      }
+    }
     .navbar {
       background-color: $white-2;
       padding: 0.7rem 2.8rem;
@@ -71,7 +76,9 @@ header {
         .navbar-nav {
           display: none;
           width: 100%;
+          
         }
+        
         .navbar-nav.show {
           display: block;
           position: relative;
