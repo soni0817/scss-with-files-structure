@@ -1199,13 +1199,18 @@ intro-section, .intro-section .container .row {
   font-size: 1rem;
   line-height: 1rem;
 }
-.footer .footer-logo {
-  display: flex;
-  align-items: center;
+@media only screen and (max-width: 576px) {
+  .footer h2 {
+    padding-top: 1rem;
+  }
 }
 .footer .footer-logo .footer-logo-img {
   width: 58px;
   height: 57px;
+  vertical-align: middle;
+}
+.footer .footer-logo h2 {
+  display: inline-block;
 }
 @media only screen and (max-width: 576px) {
   .footer .footer-logo {
@@ -1237,6 +1242,9 @@ intro-section, .intro-section .container .row {
 .footer .footer-info p {
   display: flex;
   align-items: center;
+}
+.footer .footer-info p img {
+  vertical-align: middle;
 }
 .footer .footer-info .location-text {
   padding-bottom: 0.9rem;
@@ -1314,6 +1322,9 @@ intro-section, .intro-section .container .row {
   transition: 0.2s;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
+}
+.footer .col li:first-child {
+  padding-top: 1rem;
 }
 .footer .col .social ul li {
   display: inline-block;
