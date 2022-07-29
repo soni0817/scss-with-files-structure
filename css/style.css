@@ -219,6 +219,9 @@ header .header-top {
     height: auto;
   }
 }
+header .header-top li {
+  display: inline-block;
+}
 @media only screen and (max-width: 1199px) {
   header .header-top li {
     padding-bottom: 0.3rem;

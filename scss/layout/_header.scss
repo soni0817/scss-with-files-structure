@@ -15,6 +15,7 @@ header {
         height: auto;
       }
       li {
+        display: inline-block;
         @include responsive_mobile() {
           padding-bottom: 0.3rem;
         }
