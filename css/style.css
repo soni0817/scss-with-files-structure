@@ -375,6 +375,7 @@ header .navbar ul li .search-icon {
 }
 .footer .footer-contain {
   display: flex;
+  padding-bottom: 7.8rem;
 }
 @media only screen and (max-width: 768px) {
   .footer .footer-contain {
