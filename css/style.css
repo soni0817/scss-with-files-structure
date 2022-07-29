@@ -81,6 +81,12 @@ h1 {
     line-height: 4.1rem;
   }
 }
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
 @media only screen and (max-width: 375px) {
   h1 {
     font-size: 2rem;
@@ -413,6 +419,7 @@ intro-section, .intro-section .container .row {
   .slider-row .col {
     flex-direction: column;
     padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 @media only screen and (max-width: 1199px) {
